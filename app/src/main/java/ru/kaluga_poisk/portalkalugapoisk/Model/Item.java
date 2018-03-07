@@ -2,10 +2,6 @@ package ru.kaluga_poisk.portalkalugapoisk.Model;
 
 import android.widget.TextView;
 
-/**
- * Created by design on 07.03.2018.
- */
-
 public class Item {
 
     private TextView text, subText;
@@ -33,7 +29,7 @@ public class Item {
         this.subText = subText;
     }
 
-    public Boolean getExpandable() {
+    public Boolean isExpandable() {
         return isExpandable;
     }
 
