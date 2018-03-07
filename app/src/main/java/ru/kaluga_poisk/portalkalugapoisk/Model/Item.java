@@ -4,28 +4,28 @@ import android.widget.TextView;
 
 public class Item {
 
-    private TextView text, subText;
+    private String text, subText;
     private Boolean isExpandable;
 
-    public Item(TextView text, TextView subText, Boolean isExpandable) {
+    public Item(String text, String subText, Boolean isExpandable) {
         this.text = text;
         this.subText = subText;
         this.isExpandable = isExpandable;
     }
 
-    public TextView getText() {
+    public String getText() {
         return text;
     }
 
-    public void setText(TextView text) {
+    public void setText(String text) {
         this.text = text;
     }
 
-    public TextView getSubText() {
+    public String getSubText() {
         return subText;
     }
 
-    public void setSubText(TextView subText) {
+    public void setSubText(String subText) {
         this.subText = subText;
     }
 
